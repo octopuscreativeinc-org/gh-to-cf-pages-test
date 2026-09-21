@@ -1,0 +1,30 @@
+<svg width="1200" height="1016" viewBox="0 0 1200 1016" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Deployment workflow map</title>
+  <desc id="desc">A stylized deployment workflow from code commit to build preview and production edge.</desc>
+  <rect width="1200" height="1016" rx="18" fill="#F6F1E7"/>
+  <rect x="70" y="72" width="1060" height="872" rx="14" fill="#15171F"/>
+  <path d="M166 210C166 179.072 191.072 154 222 154H978C1008.93 154 1034 179.072 1034 210V806C1034 836.928 1008.93 862 978 862H222C191.072 862 166 836.928 166 806V210Z" fill="#FFFFFF"/>
+  <rect x="220" y="214" width="760" height="96" rx="12" fill="#236B70"/>
+  <rect x="260" y="252" width="224" height="20" rx="10" fill="#FFFFFF"/>
+  <rect x="760" y="244" width="168" height="36" rx="8" fill="#8FD8BD"/>
+  <path d="M279 416H921" stroke="#D8DEE8" stroke-width="8" stroke-linecap="round"/>
+  <path d="M279 606H921" stroke="#D8DEE8" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="282" cy="416" r="54" fill="#EE775D"/>
+  <circle cx="600" cy="416" r="54" fill="#3D70C7"/>
+  <circle cx="918" cy="416" r="54" fill="#D8A53A"/>
+  <circle cx="282" cy="606" r="54" fill="#8FD8BD"/>
+  <circle cx="600" cy="606" r="54" fill="#15171F"/>
+  <circle cx="918" cy="606" r="54" fill="#236B70"/>
+  <rect x="244" y="730" width="712" height="76" rx="12" fill="#EEF3F0"/>
+  <rect x="282" y="758" width="314" height="20" rx="10" fill="#15171F"/>
+  <rect x="722" y="750" width="162" height="36" rx="8" fill="#236B70"/>
+  <path d="M260 416L282 394L304 416L282 438L260 416Z" fill="#FFFFFF"/>
+  <path d="M574 416H626M600 390V442" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round"/>
+  <path d="M894 422L912 440L944 394" stroke="#15171F" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="258" y="582" width="48" height="48" rx="10" fill="#15171F"/>
+  <path d="M582 589H618L636 606L618 623H582L564 606L582 589Z" fill="#FFFFFF"/>
+  <path d="M896 606H940M918 584V628" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round"/>
+  <rect x="206" y="174" width="26" height="26" rx="13" fill="#EE775D"/>
+  <rect x="246" y="174" width="26" height="26" rx="13" fill="#D8A53A"/>
+  <rect x="286" y="174" width="26" height="26" rx="13" fill="#8FD8BD"/>
+</svg>

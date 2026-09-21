@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A clean deployment status page for GitHub to Cloudflare Pages projects.">
+    <title>Pages Launch Desk</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Pages Launch Desk home">
+        <span class="brand-mark" aria-hidden="true">P</span>
+        <span>Pages Launch Desk</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#deployments">Deployments</a>
+        <a href="#workflow">Workflow</a>
+        <a href="#checklist">Checklist</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">GitHub to Cloudflare Pages</p>
+          <h1 id="hero-title">A cleaner launch surface for a faster static site.</h1>
+          <p class="hero-text">
+            Track the release path from repository commit to edge deployment with
+            a focused status page that is fast, responsive, and hosting friendly.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#deployments">View status</a>
+            <a class="button secondary" href="#checklist">Review checklist</a>
+          </div>
+        </div>
+
+        <figure class="hero-visual" aria-label="Deployment workflow preview">
+          <img src="assets/deploy-map.svg" alt="A visual workflow from repository commit to production edge deployment.">
+        </figure>
+      </section>
+
+      <section class="status-band" id="deployments" aria-labelledby="deployments-title">
+        <div class="section-heading">
+          <p class="eyebrow">Deployment Board</p>
+          <h2 id="deployments-title">Everything that should be calm before a launch.</h2>
+        </div>
+
+        <div class="metrics-grid">
+          <article class="metric-card">
+            <span class="metric-label">Production</span>
+            <strong>Online</strong>
+            <span class="metric-detail">Last checked <time id="last-checked">just now</time></span>
+          </article>
+          <article class="metric-card">
+            <span class="metric-label">Build Type</span>
+            <strong>Static</strong>
+            <span class="metric-detail">No install step required</span>
+          </article>
+          <article class="metric-card">
+            <span class="metric-label">Release Path</span>
+            <strong>main</strong>
+            <span class="metric-detail">GitHub push to Pages deploy</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="workflow" id="workflow" aria-labelledby="workflow-title">
+        <div class="section-heading">
+          <p class="eyebrow">Workflow</p>
+          <h2 id="workflow-title">A simple path from commit to published page.</h2>
+        </div>
+
+        <div class="steps">
+          <article class="step">
+            <span class="step-index">01</span>
+            <h3>Commit</h3>
+            <p>Push edits to the main branch and keep the repository as the source of truth.</p>
+          </article>
+          <article class="step">
+            <span class="step-index">02</span>
+            <h3>Build</h3>
+            <p>Cloudflare Pages serves the static files directly, so releases stay fast and predictable.</p>
+          </article>
+          <article class="step">
+            <span class="step-index">03</span>
+            <h3>Publish</h3>
+            <p>The live site updates at the edge with a small, auditable footprint.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="checklist" id="checklist" aria-labelledby="checklist-title">
+        <div class="section-heading">
+          <p class="eyebrow">Launch Checklist</p>
+          <h2 id="checklist-title">Small details that make the page feel finished.</h2>
+        </div>
+
+        <div class="checklist-grid">
+          <label class="check-item">
+            <input type="checkbox" checked>
+            <span>Responsive layout</span>
+          </label>
+          <label class="check-item">
+            <input type="checkbox" checked>
+            <span>Accessible landmarks</span>
+          </label>
+          <label class="check-item">
+            <input type="checkbox" checked>
+            <span>Static hosting friendly</span>
+          </label>
+          <label class="check-item">
+            <input type="checkbox">
+            <span>Connect custom domain</span>
+          </label>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Ready for Cloudflare Pages.</span>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
